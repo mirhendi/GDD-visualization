@@ -1,0 +1,42 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\begin{document}
+\title{Growing Degree Days\\CMSC6950 Course Project \\ \vspace{0.3cm}
+\large{Memorial University of Newfoundland} }
+\author{Csongor Matyas ~ Jake Dowzell ~ S. Sadra Mirhendi ~ scu677 ~ yiwen36936}
+\date{Last Edit: \today}
+\maketitle
+\section{Introduction}
+The aim of this project is to calculate the growing degree days for a specific date and place(s) in Canada, and plot the results. This code can calculate and plot the growing degree day (GDD), the accumulated GDD and the annual min/max temperature for any time period and any place given by user. The database that this project uses can be found and freely accessed at \url{http://climate.weather.gc.ca}. We should take into account that the resources available at this server are finite and many cases incomplete. Therefore these data cannot be use for scientific uses without thoroughly testing the resources. The team is not responsible for any misuse of the code, for any damage or harm that was caused by the code. The code is freely distributable from this source: \url{https://github.com/GrowingDegreeDay/Project1} and can be freely used by anyone but all rights are reserved for the authors. Any suggestions, ideas or help is greatly appreciated.
+
+In this report we go thorough the tasks that defined by instructor for the purpose of project and explain how we solved and satisfied the requirements by each task.
+
+\section{Core Tasks}
+The code relies on many packages that the creators are very grateful for and can recommend to anyone who would be interested in such. Many of the packages, libraries are needed for the code to work and the others are recommended for the use of the code but only needed for some functionalities. The main core of the code is written in python3 and the code is intended to be used under Linux operating system, although could be used under Mac OS or MS Windows if the user knows how to install the dependencies and how to create a proper environment for the code to be run. To make this step easier for the user, a makefile is used and some basic tests are built in to ensure the best experience. In the rest we will explain how each part of the code satisfy the required task. 
+\subsection{Download data}
+\subsection{Command line program that takes arguments}
+\subsection{Accumulated GDD plot}
+\subsection{Implement work flow as a Makefile}
+The makefile will check for all the files that are needed for the running of the code and the tests. If an error message is raised at this step, please ensure that the every file is downloaded without any changes and that the permissions are set properly, for example root permission is not needed in the folder that the files are downloded in. 
+After this a 'java' code will be compiled using 'javac' compiler. This part of the code is only needed for the linear regression part therefore is not mandatory but recommended.
+\subsection{Create test suites}
+\subsection{Other tasks}
+\subsubsection{Version control}
+\subsubsection{Summarizing report} 
+\subsubsection{Web based presentation}
+
+\section{Optional Tasks}
+\subsection{Annual cycle of min/max GDD  plot}
+\subsection{Map that showing effective growing degrees}
+\subsection{Temp base in GDD calculation}
+\subsection{Standalone bokeh plots}
+\subsection{Server bokeh plots}
+\subsection{Analysis GDD year over year}
+
+\end{document}
